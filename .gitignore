@@ -1,1 +1,4 @@
 *.swp
+dataset
+__pycache__
+.idea
