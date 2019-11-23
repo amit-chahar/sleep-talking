@@ -18,7 +18,10 @@ docker pull srallaba/projects:projectEmfasys
 
 AWS:
 ssh -i speech.pem ubuntu@ec2-44-224-7-113.us-west-2.compute.amazonaws.com
+source activate pytorch_p36
 
+"Name: tensorflow
+Version: 1.8.0"
 
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
