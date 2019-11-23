@@ -9,3 +9,27 @@
 ### Extract linear spectrogram features
 1. Go to preprocessing directory and run `python3 dataprep_addlspec.py ../dataset/ComParE2019_ContinuousSleepiness/ filenames.txt`
 2. This will create .npy files in `feats` directory in the sleepiness dataset directory.
+
+
+
+Docker commands:
+docker pull srallaba/projects:projectEmfasys
+
+
+AWS:
+ssh -i speech.pem ubuntu@ec2-44-224-7-113.us-west-2.compute.amazonaws.com
+
+
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
+
+export FALCONDIR=/home/ubuntu/speech-project/srallaba/projects/project_emphasis/repos/festvox/src/falcon
+
+bin/model.py
+bin/util.py
+$FALCONDIR/model.py
+blocks.py
+
+
+Acoustic features in:
+srallaba/projects/project_emphasis/voices/cmu_us_ljspeech/festival/
