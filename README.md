@@ -37,5 +37,5 @@ blocks.py
 Acoustic features in:
 srallaba/projects/project_emphasis/voices/cmu_us_ljspeech/festival/
 
-Baseline code used the tacotron model TacotronOneSeqwiseTones
+Baseline code used the tacotron model TacotronOneSeqwiseTones(TacotronOneSeqwise(TacotronOne))
 
