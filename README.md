@@ -39,3 +39,7 @@ srallaba/projects/project_emphasis/voices/cmu_us_ljspeech/festival/
 
 Baseline code used the tacotron model TacotronOneSeqwiseTones(TacotronOneSeqwise(TacotronOne))
 
+n_mels = 80  # Number of Mel banks to generate
+
+
+
