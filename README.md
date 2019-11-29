@@ -28,10 +28,10 @@ bind '"\e[B":history-search-forward'
 
 export FALCONDIR=/home/ubuntu/speech-project/srallaba/projects/project_emphasis/repos/festvox/src/falcon
 
-bin/model.py
-bin/util.py
-$FALCONDIR/model.py
-blocks.py
+bin/model.py  
+bin/util.py  
+$FALCONDIR/model.py  
+blocks.py  
 
 
 Acoustic features in:
@@ -43,9 +43,9 @@ n_mels = 80  # Number of Mel banks to generate
 
 
 ### Files, functions edited
-In utils.misc.py
-def collate_fn_xspkmely_sleep(batch)
-class PyTorchDataset_sleep(object):
+In utils.misc.py:
+1. def collate_fn_xspkmely_sleep(batch):
+2. class PyTorchDataset_sleep(object):
 
 
 
