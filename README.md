@@ -48,5 +48,5 @@ In utils.misc.py:
 2. class PyTorchDataset_sleep(object):
 
 In block.py, line 88: alignment = F.softmax(alignment, dim=1)  
-
+In GST.py. line 91: keys = torch.tanh(self.embed).unsqueeze(0).expand(N, -1, -1)
 
