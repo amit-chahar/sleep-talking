@@ -42,4 +42,10 @@ Baseline code used the tacotron model TacotronOneSeqwiseTones(TacotronOneSeqwise
 n_mels = 80  # Number of Mel banks to generate
 
 
+### Files, functions edited
+In utils.misc.py
+def collate_fn_xspkmely_sleep(batch)
+class PyTorchDataset_sleep(object):
+
+
 
