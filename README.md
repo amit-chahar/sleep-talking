@@ -47,5 +47,6 @@ In utils.misc.py:
 1. def collate_fn_xspkmely_sleep(batch):
 2. class PyTorchDataset_sleep(object):
 
+In block.py, line 88: alignment = F.softmax(alignment, dim=1)  
 
 
