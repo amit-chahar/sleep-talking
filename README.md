@@ -54,3 +54,7 @@ In GST.py. line 91: keys = torch.tanh(self.embed).unsqueeze(0).expand(N, -1, -1)
 
 ### Some directories
 1. ~/speech-project/srallaba/projes/cmu_us_ljspeech/checkpoint_sleep
+
+## Synthesis commands
+python3 synthesize_tacotronone_qf0s.py checkpoints/checkpoint_step100000.pth test_emphasis_qf0s.txt arindam/
+
