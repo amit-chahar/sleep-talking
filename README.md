@@ -50,3 +50,7 @@ In utils.misc.py:
 In block.py, line 88: alignment = F.softmax(alignment, dim=1)  
 In GST.py. line 91: keys = torch.tanh(self.embed).unsqueeze(0).expand(N, -1, -1)
 
+
+
+### Some directories
+1. ~/speech-project/srallaba/projes/cmu_us_ljspeech/checkpoint_sleep
